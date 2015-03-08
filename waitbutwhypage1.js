@@ -15,7 +15,7 @@ $(document).ready(function(){
 		}
 		
 		for (i=0; i<row; i++){
-			document.getElementById("table").innerHTML = line + row;
+			document.getElementById("table").innerHTML = line + " " + row + " " + ageGuess + " " + timeScale;
 		}
 	}
 
